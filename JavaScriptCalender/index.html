@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Calendar</title>
+	<link href="css/dycalendar.min.css" rel="stylesheet">
+</head>
+<body>
+		<h1>JavaScript Calendar</h1>
+		<p>I followed/watched a little youtube video guide to quickly build a calendar. This project is to add to my learning Javascript</p>
+
+		<div class="newClass">
+			<div id="calendar"
+				class="dycalendar-container skin-blue shadow-default"></div>
+		</div>
+
+		<!-- javascript -->
+		<script src="js/dycalendar.min.js"></script>
+
+		<script>
+			dycalendar.draw({
+				target : "#calendar",
+				type : "month",
+				highlighttoday : true
+			});
+		</script>
+</body>
+</html>
